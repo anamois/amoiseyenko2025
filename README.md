@@ -1,11 +1,19 @@
 # *Faecalibacterium prausnitzii*, depleted in the Parkinson’s disease microbiome, improves motor deficits in $\alpha$-synuclein overexpressing mice
 
-This repository contains the code used for the statistical analysis of motor behavior and gut physiology data from **Moiseyenko et al. (manuscript in preparation)**.  
+Abstract: Gut microbiome composition is altered in Parkinson’s disease (PD), a neurodegenerative disorder characterized by motor dysfunction and frequently accompanied by gastrointestinal (GI) symptoms. Notably, microbial taxa with anti-inflammatory properties are consistently depleted in PD patients compared to controls. To explore whether specific gut bacteria may be disease-protective, we assembled a microbial consortium of 8 human-associated taxa that are reduced in individuals with PD across multiple cohorts and geographies (benCom-PD). Treatment of a-synuclein overexpressing (Thy1-ASO) mice, an animal model of PD, with this consortium improved motor and GI deficits. A single bacterial species from this consortium, Faecalibacterium prausnitzii, was sufficient to correct gut microbiome deviations in Thy1-ASO mice, induce anti-inflammatory immune responses, and promote protective colonic gene expression profiles. Accordingly, oral treatment with F. prausnitzii robustly ameliorated motor and GI symptoms, and reduced a-synuclein aggregates in the brain. These findings support the emerging hypothesis for functional contributions by the microbiome to PD and embolden development of potential probiotic therapies.
+
+This repository contains the code and data used for the statistical analysis of motor behavior and gut physiology tests, and downstream protein assays from **Moiseyenko et al. (manuscript in preparation)**.  
+
+A.D.Oguienko performed statistical analysis for motor and GI function assays. This research was funded in part by Aligning Science Across Parkinson’s (ASAP-020495 and ASAP-000375) through the Michael J. Fox Foundation for Parkinson’s Research (MJFF), as well as the Heritage Medical Research Institute to S.K.M. 
+
 
 The repository includes:  
 - Python notebooks implementing the analysis workflow  
 - Input data tables (Microsoft Excel format)  
-- Output `.csv` tables summarizing results from various statistical tests  
+- Output `.csv` tables summarizing results from various statistical tests
+- Western blot and dot blot images and values (jpg, Microsoft Excel format)
+- Multiplex (Bioplex) readout (Microsoft Excel format)
+- Voltatile fatty acids readout (Microsoft Excel format)
 
 ---
 
