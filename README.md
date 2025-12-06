@@ -9,9 +9,10 @@ A.D.Oguienko performed statistical analysis for motor and GI function assays. Th
 
 
 The repository includes:  
-- Python notebooks implementing the analysis workflow  
+- Python notebooks implementing the analysis workflow   (.ipynb format)
 - Input data tables (Microsoft Excel format)  
 - Output `.csv` tables summarizing results from various statistical tests
+- Output `.csv` tables containing bootstrapping results (each row contains values of the model parameters calculated for one out of 10_000 bootstrap samples; each file contains 10_000 rows corresponding to 10_000 bootstrap replicates)
 - Western blot and dot blot images and values (jpg, Microsoft Excel format)
 - Multiplex (Bioplex) readout (Microsoft Excel format)
 - Voltatile fatty acids readout (Microsoft Excel format)
